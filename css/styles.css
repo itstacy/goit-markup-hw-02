@@ -1,5 +1,7 @@
 body { 
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul,ol { 
@@ -9,17 +11,18 @@ ul,ol {
 a { 
     text-decoration: none;
 }
-
 /* #region Header */
 .header {
 }
 .nav {
 }  
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif,;
     font-weight:700;
     font-size: 18px;
-    line-height: 1,2;
+    line-height: 1,17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5; 
 }
 .studio {
@@ -68,12 +71,16 @@ color: #9747FF;
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,2;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 .hero-btn { 
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
     font-weight: 500;
+    letter-spacing: 0.04em;
     font-size: 16px;
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -85,15 +92,45 @@ color: #9747FF;
     background-color: #404BBF;
     ;
 }
-
+.small-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .second-title {
     font-weight: 700;
     font-size: 36px;
     color: #2E2F42;
 }
 .third-title {
+    line-height: 1.11;
     font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     font-size: 36px;
     color: #2E2F42;
 }
 /* #endregion Hero */
+/* #region Footer */
+.footer {
+    background-color: #2e2f42;
+}
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.studio-footer {
+color: #f4f4fd;
+}
+.text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+/* #endregion Footer */
