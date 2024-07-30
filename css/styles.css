@@ -30,7 +30,15 @@ a {
 }
 .menu {
 }
-.menu-item {
+.menu-item-one {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.menu-item-one:hover,
+.menu-item-one:focus {
+    color: #404bbf;
 }
 .menu-link {
     font-weight: 500;
@@ -40,10 +48,7 @@ a {
     line-height: 1.5;
     color: #2E2F42;
 }
-.menu-link:hover,
-.menu-link:focus { 
-color: #404BBF;
-}
+
 .address {
     font-style: normal;
     line-height: 1.5;
