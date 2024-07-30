@@ -92,15 +92,41 @@ color: #9747FF;
     background-color: #404BBF;
     ;
 }
+.forth-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 .small-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.second-section {
+    background-color: #F4F4FD;
+}
 .second-title {
     font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     font-size: 36px;
     color: #2E2F42;
+}
+.person {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.descr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .third-title {
     line-height: 1.11;
@@ -110,6 +136,18 @@ color: #9747FF;
     text-transform: capitalize;
     font-size: 36px;
     color: #2E2F42;
+}
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.par {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* #endregion Hero */
 /* #region Footer */
