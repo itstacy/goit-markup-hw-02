@@ -1,0 +1,99 @@
+body { 
+    font-family: "Roboto";
+}
+
+ul,ol { 
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+/* #region Header */
+.header {
+}
+.nav {
+}  
+.logo {
+    font-family: "Raleway";
+    font-weight:700;
+    font-size: 18px;
+    line-height: 1,2;
+    color: #4D5AE5; 
+}
+.studio {
+    color: #2E2F42 ;
+}
+.menu {
+}
+.menu-item {
+}
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,1;
+    color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus { 
+color: #404BBF;
+}
+.mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,1;
+    color: #434455;
+}
+.mail:hover,
+.mail:focus {
+color: #9747FF;
+}
+.number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,1;
+    color: #434455;
+}
+.number:hover,
+.number:focus {
+color: #9747FF;
+}
+/* #endregion Header */
+
+/* #region Hero */
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,2;
+    color: #FFFFFF;
+}
+.hero-btn { 
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    ;
+}
+
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+}
+.third-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+}
+/* #endregion Hero */
