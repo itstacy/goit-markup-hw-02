@@ -143,6 +143,7 @@ a {
 .second-section {
     background-color: #F4F4FD;
 }
+
 .second-title {
     font-weight: 700;
     line-height: 1.11;
@@ -152,9 +153,13 @@ a {
     font-size: 36px;
     color: #2E2F42;
 }
+
 .background {
     background-color: #FFFFFF;
+    list-style: none;
+    padding: 0;
 }
+
 .person {
     font-weight: 500;
     font-size: 20px;
@@ -162,11 +167,17 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .descr {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.team-member-one {
+    background-color: #FFFFFF; /* Фон першого пункту списку */
+}
+
 .third-title {
     line-height: 1.11;
     font-weight: 700;
