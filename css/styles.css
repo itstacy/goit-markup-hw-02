@@ -36,11 +36,25 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,1;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #2E2F42;
 }
 .menu-link:hover,
 .menu-link:focus { 
 color: #404BBF;
+}
+.address {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,1;
+    color: #434455;
+}
+.address:hover,
+.address:focus {
+color: #404bbf;
 }
 .mail {
     font-weight: 400;
@@ -62,6 +76,7 @@ color: #9747FF;
 .number:focus {
 color: #9747FF;
 }
+
 /* #endregion Header */
 
 /* #region Hero */
@@ -115,6 +130,9 @@ color: #9747FF;
     text-transform: capitalize;
     font-size: 36px;
     color: #2E2F42;
+}
+.background {
+    background-color: #FFFFFF;
 }
 .person {
     font-weight: 500;
